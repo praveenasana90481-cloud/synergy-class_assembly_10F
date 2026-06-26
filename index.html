@@ -1164,7 +1164,7 @@
       return `<div><div class="icon">${iconFor(slide)}</div><div class="visualText">${asText(slide.v)}</div></div>`;
     }
 
-    const videoBase = 'synergy-videos/videos';
+    const videoBase = 'videos';
     function chooseBgVideo(slide, idx) {
       const title = `${asText(slide.t)} ${asText(slide.v)} ${asText(slide.cls)}`.toLowerCase();
       if (title.includes('brother') || title.includes('rayappa')) return 'brother';
